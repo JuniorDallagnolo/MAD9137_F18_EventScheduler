@@ -11,8 +11,6 @@
 		7920853F2175047900FEC4D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7920853D2175047900FEC4D3 /* Main.storyboard */; };
 		792085412175047B00FEC4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792085402175047B00FEC4D3 /* Assets.xcassets */; };
 		792085442175047B00FEC4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792085422175047B00FEC4D3 /* LaunchScreen.storyboard */; };
-		7920854F2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920854E2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.swift */; };
-		7920855A2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792085592175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.swift */; };
 		7920856F217506B200FEC4D3 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79208568217506B200FEC4D3 /* Protocol.swift */; };
 		792085772175080F00FEC4D3 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792085752175080E00FEC4D3 /* Event.swift */; };
 		792085782175080F00FEC4D3 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792085762175080E00FEC4D3 /* Schedule.swift */; };
@@ -39,18 +37,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		792085362175047900FEC4D3 /* MAD9137_F18_EventScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD9137_F18_EventScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		792085362175047900FEC4D3 /* MAD9137_F18_EventScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MAD9137_F18_EventScheduler.app; path = "/Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/build/Debug-iphoneos/MAD9137_F18_EventScheduler.app"; sourceTree = "<absolute>"; };
 		792085392175047900FEC4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7920853E2175047900FEC4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		792085402175047B00FEC4D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		792085432175047B00FEC4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		792085452175047B00FEC4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7920854A2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAD9137_F18_EventSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7920854E2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD9137_F18_EventSchedulerTests.swift; sourceTree = "<group>"; };
-		792085502175047B00FEC4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		792085552175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAD9137_F18_EventSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		792085592175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD9137_F18_EventSchedulerUITests.swift; sourceTree = "<group>"; };
-		7920855B2175047B00FEC4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7920854A2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MAD9137_F18_EventSchedulerTests.xctest; path = "/Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/build/Debug-iphoneos/MAD9137_F18_EventSchedulerTests.xctest"; sourceTree = "<absolute>"; };
+		792085552175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MAD9137_F18_EventSchedulerUITests.xctest; path = "/Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/build/Debug-iphoneos/MAD9137_F18_EventSchedulerUITests.xctest"; sourceTree = "<absolute>"; };
 		79208568217506B200FEC4D3 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		792085752175080E00FEC4D3 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		792085762175080E00FEC4D3 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
@@ -88,20 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				792085382175047900FEC4D3 /* MAD9137_F18_EventScheduler */,
-				7920854D2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests */,
-				792085582175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests */,
-				792085372175047900FEC4D3 /* Products */,
 			);
-			sourceTree = "<group>";
-		};
-		792085372175047900FEC4D3 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				792085362175047900FEC4D3 /* MAD9137_F18_EventScheduler.app */,
-				7920854A2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.xctest */,
-				792085552175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		792085382175047900FEC4D3 /* MAD9137_F18_EventScheduler */ = {
@@ -120,24 +101,6 @@
 				792085452175047B00FEC4D3 /* Info.plist */,
 			);
 			path = MAD9137_F18_EventScheduler;
-			sourceTree = "<group>";
-		};
-		7920854D2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests */ = {
-			isa = PBXGroup;
-			children = (
-				7920854E2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.swift */,
-				792085502175047B00FEC4D3 /* Info.plist */,
-			);
-			path = MAD9137_F18_EventSchedulerTests;
-			sourceTree = "<group>";
-		};
-		792085582175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				792085592175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.swift */,
-				7920855B2175047B00FEC4D3 /* Info.plist */,
-			);
-			path = MAD9137_F18_EventSchedulerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +191,7 @@
 				Base,
 			);
 			mainGroup = 7920852D2175047900FEC4D3;
-			productRefGroup = 792085372175047900FEC4D3 /* Products */;
+			productRefGroup = 7920852D2175047900FEC4D3;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -285,7 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7920854F2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +255,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7920855A2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +416,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V94L67MHG8;
 				INFOPLIST_FILE = MAD9137_F18_EventScheduler/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -474,7 +435,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V94L67MHG8;
 				INFOPLIST_FILE = MAD9137_F18_EventScheduler/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
