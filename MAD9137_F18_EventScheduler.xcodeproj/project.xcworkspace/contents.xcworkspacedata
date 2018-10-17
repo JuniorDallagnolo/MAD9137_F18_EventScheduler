@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/MAD9137_F18_EventScheduler/EventInfoViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/MAD9137_F18_EventScheduler/NewEventViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "group:/Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/MAD9137_F18_EventScheduler/ScheduleTableViewController.swift">
+   </FileRef>
+   <FileRef
+      location = "self:">
+   </FileRef>
+</Workspace>

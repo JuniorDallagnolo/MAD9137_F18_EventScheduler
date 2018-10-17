@@ -1,0 +1,613 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7920853A2175047900FEC4D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792085392175047900FEC4D3 /* AppDelegate.swift */; };
+		7920853F2175047900FEC4D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7920853D2175047900FEC4D3 /* Main.storyboard */; };
+		792085412175047B00FEC4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 792085402175047B00FEC4D3 /* Assets.xcassets */; };
+		792085442175047B00FEC4D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 792085422175047B00FEC4D3 /* LaunchScreen.storyboard */; };
+		7920854F2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7920854E2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.swift */; };
+		7920855A2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792085592175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.swift */; };
+		7920856F217506B200FEC4D3 /* Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79208568217506B200FEC4D3 /* Protocol.swift */; };
+		792085772175080F00FEC4D3 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792085752175080E00FEC4D3 /* Event.swift */; };
+		792085782175080F00FEC4D3 /* Schedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 792085762175080E00FEC4D3 /* Schedule.swift */; };
+		79BB988B2177D12500E06EA7 /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BB98882177D12500E06EA7 /* ScheduleTableViewController.swift */; };
+		79BB988C2177D12500E06EA7 /* EventInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BB98892177D12500E06EA7 /* EventInfoViewController.swift */; };
+		79BB988D2177D12500E06EA7 /* NewEventViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BB988A2177D12500E06EA7 /* NewEventViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7920854B2175047B00FEC4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7920852E2175047900FEC4D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 792085352175047900FEC4D3;
+			remoteInfo = MAD9137_F18_EventScheduler;
+		};
+		792085562175047B00FEC4D3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7920852E2175047900FEC4D3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 792085352175047900FEC4D3;
+			remoteInfo = MAD9137_F18_EventScheduler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		792085362175047900FEC4D3 /* MAD9137_F18_EventScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD9137_F18_EventScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		792085392175047900FEC4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7920853E2175047900FEC4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		792085402175047B00FEC4D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		792085432175047B00FEC4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		792085452175047B00FEC4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7920854A2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAD9137_F18_EventSchedulerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7920854E2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD9137_F18_EventSchedulerTests.swift; sourceTree = "<group>"; };
+		792085502175047B00FEC4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		792085552175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MAD9137_F18_EventSchedulerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		792085592175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD9137_F18_EventSchedulerUITests.swift; sourceTree = "<group>"; };
+		7920855B2175047B00FEC4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79208568217506B200FEC4D3 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
+		792085752175080E00FEC4D3 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		792085762175080E00FEC4D3 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		79BB98882177D12500E06EA7 /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScheduleTableViewController.swift; path = /Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/MAD9137_F18_EventScheduler/ScheduleTableViewController.swift; sourceTree = "<absolute>"; };
+		79BB98892177D12500E06EA7 /* EventInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventInfoViewController.swift; path = /Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/MAD9137_F18_EventScheduler/EventInfoViewController.swift; sourceTree = "<absolute>"; };
+		79BB988A2177D12500E06EA7 /* NewEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewEventViewController.swift; path = /Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/MAD9137_F18_EventScheduler/NewEventViewController.swift; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		792085332175047900FEC4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792085472175047B00FEC4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792085522175047B00FEC4D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7920852D2175047900FEC4D3 = {
+			isa = PBXGroup;
+			children = (
+				792085382175047900FEC4D3 /* MAD9137_F18_EventScheduler */,
+				7920854D2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests */,
+				792085582175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests */,
+				792085372175047900FEC4D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		792085372175047900FEC4D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				792085362175047900FEC4D3 /* MAD9137_F18_EventScheduler.app */,
+				7920854A2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.xctest */,
+				792085552175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		792085382175047900FEC4D3 /* MAD9137_F18_EventScheduler */ = {
+			isa = PBXGroup;
+			children = (
+				79BB98892177D12500E06EA7 /* EventInfoViewController.swift */,
+				79BB988A2177D12500E06EA7 /* NewEventViewController.swift */,
+				79BB98882177D12500E06EA7 /* ScheduleTableViewController.swift */,
+				792085392175047900FEC4D3 /* AppDelegate.swift */,
+				792085752175080E00FEC4D3 /* Event.swift */,
+				792085762175080E00FEC4D3 /* Schedule.swift */,
+				79208568217506B200FEC4D3 /* Protocol.swift */,
+				7920853D2175047900FEC4D3 /* Main.storyboard */,
+				792085402175047B00FEC4D3 /* Assets.xcassets */,
+				792085422175047B00FEC4D3 /* LaunchScreen.storyboard */,
+				792085452175047B00FEC4D3 /* Info.plist */,
+			);
+			path = MAD9137_F18_EventScheduler;
+			sourceTree = "<group>";
+		};
+		7920854D2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7920854E2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.swift */,
+				792085502175047B00FEC4D3 /* Info.plist */,
+			);
+			path = MAD9137_F18_EventSchedulerTests;
+			sourceTree = "<group>";
+		};
+		792085582175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				792085592175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.swift */,
+				7920855B2175047B00FEC4D3 /* Info.plist */,
+			);
+			path = MAD9137_F18_EventSchedulerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		792085352175047900FEC4D3 /* MAD9137_F18_EventScheduler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7920855E2175047B00FEC4D3 /* Build configuration list for PBXNativeTarget "MAD9137_F18_EventScheduler" */;
+			buildPhases = (
+				792085322175047900FEC4D3 /* Sources */,
+				792085332175047900FEC4D3 /* Frameworks */,
+				792085342175047900FEC4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MAD9137_F18_EventScheduler;
+			productName = MAD9137_F18_EventScheduler;
+			productReference = 792085362175047900FEC4D3 /* MAD9137_F18_EventScheduler.app */;
+			productType = "com.apple.product-type.application";
+		};
+		792085492175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 792085612175047B00FEC4D3 /* Build configuration list for PBXNativeTarget "MAD9137_F18_EventSchedulerTests" */;
+			buildPhases = (
+				792085462175047B00FEC4D3 /* Sources */,
+				792085472175047B00FEC4D3 /* Frameworks */,
+				792085482175047B00FEC4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7920854C2175047B00FEC4D3 /* PBXTargetDependency */,
+			);
+			name = MAD9137_F18_EventSchedulerTests;
+			productName = MAD9137_F18_EventSchedulerTests;
+			productReference = 7920854A2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		792085542175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 792085642175047B00FEC4D3 /* Build configuration list for PBXNativeTarget "MAD9137_F18_EventSchedulerUITests" */;
+			buildPhases = (
+				792085512175047B00FEC4D3 /* Sources */,
+				792085522175047B00FEC4D3 /* Frameworks */,
+				792085532175047B00FEC4D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				792085572175047B00FEC4D3 /* PBXTargetDependency */,
+			);
+			name = MAD9137_F18_EventSchedulerUITests;
+			productName = MAD9137_F18_EventSchedulerUITests;
+			productReference = 792085552175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7920852E2175047900FEC4D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Ernilo Dallaagnolo Junior";
+				TargetAttributes = {
+					792085352175047900FEC4D3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					792085492175047B00FEC4D3 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 792085352175047900FEC4D3;
+					};
+					792085542175047B00FEC4D3 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 792085352175047900FEC4D3;
+					};
+				};
+			};
+			buildConfigurationList = 792085312175047900FEC4D3 /* Build configuration list for PBXProject "MAD9137_F18_EventScheduler" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7920852D2175047900FEC4D3;
+			productRefGroup = 792085372175047900FEC4D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				792085352175047900FEC4D3 /* MAD9137_F18_EventScheduler */,
+				792085492175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests */,
+				792085542175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		792085342175047900FEC4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				792085442175047B00FEC4D3 /* LaunchScreen.storyboard in Resources */,
+				792085412175047B00FEC4D3 /* Assets.xcassets in Resources */,
+				7920853F2175047900FEC4D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792085482175047B00FEC4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792085532175047B00FEC4D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		792085322175047900FEC4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7920853A2175047900FEC4D3 /* AppDelegate.swift in Sources */,
+				79BB988B2177D12500E06EA7 /* ScheduleTableViewController.swift in Sources */,
+				792085772175080F00FEC4D3 /* Event.swift in Sources */,
+				79BB988C2177D12500E06EA7 /* EventInfoViewController.swift in Sources */,
+				79BB988D2177D12500E06EA7 /* NewEventViewController.swift in Sources */,
+				792085782175080F00FEC4D3 /* Schedule.swift in Sources */,
+				7920856F217506B200FEC4D3 /* Protocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792085462175047B00FEC4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7920854F2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		792085512175047B00FEC4D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7920855A2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7920854C2175047B00FEC4D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 792085352175047900FEC4D3 /* MAD9137_F18_EventScheduler */;
+			targetProxy = 7920854B2175047B00FEC4D3 /* PBXContainerItemProxy */;
+		};
+		792085572175047B00FEC4D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 792085352175047900FEC4D3 /* MAD9137_F18_EventScheduler */;
+			targetProxy = 792085562175047B00FEC4D3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7920853D2175047900FEC4D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7920853E2175047900FEC4D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		792085422175047B00FEC4D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				792085432175047B00FEC4D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7920855C2175047B00FEC4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7920855D2175047B00FEC4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7920855F2175047B00FEC4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				INFOPLIST_FILE = MAD9137_F18_EventScheduler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dall0078.MAD9137-F18-EventScheduler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		792085602175047B00FEC4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				INFOPLIST_FILE = MAD9137_F18_EventScheduler/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dall0078.MAD9137-F18-EventScheduler";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		792085622175047B00FEC4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				INFOPLIST_FILE = MAD9137_F18_EventSchedulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dall0078.MAD9137-F18-EventSchedulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAD9137_F18_EventScheduler.app/MAD9137_F18_EventScheduler";
+			};
+			name = Debug;
+		};
+		792085632175047B00FEC4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				INFOPLIST_FILE = MAD9137_F18_EventSchedulerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dall0078.MAD9137-F18-EventSchedulerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAD9137_F18_EventScheduler.app/MAD9137_F18_EventScheduler";
+			};
+			name = Release;
+		};
+		792085652175047B00FEC4D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				INFOPLIST_FILE = MAD9137_F18_EventSchedulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dall0078.MAD9137-F18-EventSchedulerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MAD9137_F18_EventScheduler;
+			};
+			name = Debug;
+		};
+		792085662175047B00FEC4D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V94L67MHG8;
+				INFOPLIST_FILE = MAD9137_F18_EventSchedulerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dall0078.MAD9137-F18-EventSchedulerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MAD9137_F18_EventScheduler;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		792085312175047900FEC4D3 /* Build configuration list for PBXProject "MAD9137_F18_EventScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7920855C2175047B00FEC4D3 /* Debug */,
+				7920855D2175047B00FEC4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7920855E2175047B00FEC4D3 /* Build configuration list for PBXNativeTarget "MAD9137_F18_EventScheduler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7920855F2175047B00FEC4D3 /* Debug */,
+				792085602175047B00FEC4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		792085612175047B00FEC4D3 /* Build configuration list for PBXNativeTarget "MAD9137_F18_EventSchedulerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				792085622175047B00FEC4D3 /* Debug */,
+				792085632175047B00FEC4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		792085642175047B00FEC4D3 /* Build configuration list for PBXNativeTarget "MAD9137_F18_EventSchedulerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				792085652175047B00FEC4D3 /* Debug */,
+				792085662175047B00FEC4D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7920852E2175047900FEC4D3 /* Project object */;
+}
