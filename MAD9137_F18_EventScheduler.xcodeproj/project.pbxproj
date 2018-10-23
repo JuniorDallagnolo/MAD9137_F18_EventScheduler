@@ -37,17 +37,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		792085362175047900FEC4D3 /* MAD9137_F18_EventScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = MAD9137_F18_EventScheduler.app; path = "/Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/build/Debug-iphoneos/MAD9137_F18_EventScheduler.app"; sourceTree = "<absolute>"; };
 		792085392175047900FEC4D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7920853E2175047900FEC4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		792085402175047B00FEC4D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		792085432175047B00FEC4D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		792085452175047B00FEC4D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7920854A2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MAD9137_F18_EventSchedulerTests.xctest; path = "/Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/build/Debug-iphoneos/MAD9137_F18_EventSchedulerTests.xctest"; sourceTree = "<absolute>"; };
-		792085552175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MAD9137_F18_EventSchedulerUITests.xctest; path = "/Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/build/Debug-iphoneos/MAD9137_F18_EventSchedulerUITests.xctest"; sourceTree = "<absolute>"; };
 		79208568217506B200FEC4D3 /* Protocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocol.swift; sourceTree = "<group>"; };
 		792085752175080E00FEC4D3 /* Event.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
 		792085762175080E00FEC4D3 /* Schedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Schedule.swift; sourceTree = "<group>"; };
+		79973593217FC95400C783E9 /* MAD9137_F18_EventScheduler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MAD9137_F18_EventScheduler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79973594217FC95400C783E9 /* MAD9137_F18_EventSchedulerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MAD9137_F18_EventSchedulerTests.xctest; path = "/Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/build/Debug-iphoneos/MAD9137_F18_EventSchedulerTests.xctest"; sourceTree = "<absolute>"; };
+		79973595217FC95400C783E9 /* MAD9137_F18_EventSchedulerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = MAD9137_F18_EventSchedulerUITests.xctest; path = "/Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/build/Debug-iphoneos/MAD9137_F18_EventSchedulerUITests.xctest"; sourceTree = "<absolute>"; };
 		79BB98882177D12500E06EA7 /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScheduleTableViewController.swift; path = /Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/MAD9137_F18_EventScheduler/ScheduleTableViewController.swift; sourceTree = "<absolute>"; };
 		79BB98892177D12500E06EA7 /* EventInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = EventInfoViewController.swift; path = /Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/MAD9137_F18_EventScheduler/EventInfoViewController.swift; sourceTree = "<absolute>"; };
 		79BB988A2177D12500E06EA7 /* NewEventViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NewEventViewController.swift; path = /Users/junior/Projects/iOSProjects/MAD9137_F18_EventScheduler/MAD9137_F18_EventScheduler/NewEventViewController.swift; sourceTree = "<absolute>"; };
@@ -82,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				792085382175047900FEC4D3 /* MAD9137_F18_EventScheduler */,
+				79973593217FC95400C783E9 /* MAD9137_F18_EventScheduler.app */,
 			);
 			sourceTree = "<group>";
 		};
@@ -120,7 +121,7 @@
 			);
 			name = MAD9137_F18_EventScheduler;
 			productName = MAD9137_F18_EventScheduler;
-			productReference = 792085362175047900FEC4D3 /* MAD9137_F18_EventScheduler.app */;
+			productReference = 79973593217FC95400C783E9 /* MAD9137_F18_EventScheduler.app */;
 			productType = "com.apple.product-type.application";
 		};
 		792085492175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests */ = {
@@ -138,7 +139,7 @@
 			);
 			name = MAD9137_F18_EventSchedulerTests;
 			productName = MAD9137_F18_EventSchedulerTests;
-			productReference = 7920854A2175047B00FEC4D3 /* MAD9137_F18_EventSchedulerTests.xctest */;
+			productReference = 79973594217FC95400C783E9 /* MAD9137_F18_EventSchedulerTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		792085542175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests */ = {
@@ -156,7 +157,7 @@
 			);
 			name = MAD9137_F18_EventSchedulerUITests;
 			productName = MAD9137_F18_EventSchedulerUITests;
-			productReference = 792085552175047B00FEC4D3 /* MAD9137_F18_EventSchedulerUITests.xctest */;
+			productReference = 79973595217FC95400C783E9 /* MAD9137_F18_EventSchedulerUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
